@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url(image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-btn{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 14px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    background: linear-gradient(45deg, #ff512f, #dd2476);
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background: linear-gradient(45deg, #dd2476, #ff512f);
+    transform: scale(1.05);
+}
+
+
+.content{
+    margin-top: 12%;
+    max-width: 600px;
+    padding: 30px;
+}
+
+.content h1{
+    font-size: 130px;
+    color: #fff;
+}
+
+.content p{
+    margin: 20px 0 30px;
+    color: #00ccff;
+}
+
+.features-img{
+    width: 350px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
